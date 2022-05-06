@@ -1,0 +1,16 @@
+package javapractice1.wk13;
+
+public class Family {
+	String name;
+	String address;
+	String number;
+	int age;
+	
+	public Family(String _name, String _address, String _number, int _age) {
+		name = _name;
+		address = _address;
+		number = _number;
+		age = _age;
+	}
+
+}
