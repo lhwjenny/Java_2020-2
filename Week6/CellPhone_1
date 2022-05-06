@@ -1,0 +1,17 @@
+package javapractice1.wk6;
+
+public class CellPhone_1 extends Product {
+    String carrier;
+
+    public CellPhone_1(String pname, int price, String carrier) {
+		this.pname = pname;
+		this.price = price;
+		this.carrier = carrier;
+	}
+
+	@Override
+	public void printExtra() {
+		System.out.println("��Ż�: " + carrier);
+	}
+
+}
