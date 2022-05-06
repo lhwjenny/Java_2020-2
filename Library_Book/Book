@@ -1,0 +1,18 @@
+package Libray_Book;
+
+public class Book {
+	public int getClass_num() {
+		return class_num;
+	}
+	public void setClass_num(int class_num) {
+		this.class_num = class_num;
+	}
+	private int class_num;
+	public int book_num;
+	public String name;
+	public Book(int book_class,int num,String book_name) {
+		this.setClass_num(book_class);
+		book_num = num;
+		name = book_name;
+	}
+}
